@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/DevSultan/precache-manifest.0848867c3c38802a5b59e1157fa8c6db.js"
+  "/DevSultanAdeleke/precache-manifest.d2c859416d02ffcb5ad46c8d820848d4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/DevSultan/index.html", {
+workbox.routing.registerNavigationRoute("/DevSultanAdeleke/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
